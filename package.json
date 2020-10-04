@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config-commandments",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable commitlint config enforcing Ten Commandments of Git Commit Messages",
   "main": "index.js",
   "scripts": {

@@ -2,7 +2,7 @@ module.exports = {
     rules: {
         'header-max-length': [2, 'always', 72],
         'type-case': [2, 'always', 'pascal-case'],
-        'type-enum': ['Feat', 'Fix', 'Docs', 'Style', 'Refactor', 'Test'],
+        'type-enum': [2, 'always', ['Feat', 'Fix', 'Docs', 'Style', 'Refactor', 'Test']],
         'scope-case': [2, 'always', 'pascal-case'],
         'subject-case': [2, 'always', 'sentence-case'],
         'subject-empty': [2, 'never'],

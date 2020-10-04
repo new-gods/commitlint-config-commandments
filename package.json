@@ -4,7 +4,7 @@
   "description": "Shareable commitlint config enforcing Ten Commandments of Git Commit Messages",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "ts-node node_modules/jasmine/bin/jasmine"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/new-gods/commitlint-config-commandments/issues"
   },
-  "homepage": "https://github.com/new-gods/commitlint-config-commandments#readme"
+  "homepage": "https://github.com/new-gods/commitlint-config-commandments#readme",
+  "devDependencies": {
+    "@commitlint/lint": "^11.0.0",
+    "@types/jasmine": "^3.5.14",
+    "jasmine": "^3.6.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
 }
